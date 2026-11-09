@@ -1,0 +1,26 @@
+# === Datos sensibles / capturas — NUNCA subir ===
+*.png
+*.jpg
+*.jpeg
+saved.ip.txt
+saved_locations/
+saved_*
+ip.txt
+*.log
+debug_log.php
+
+# Credenciales / config local
+*.env
+.env
+secrets.*
+*_credenciales.*
+
+# Artefactos de herramientas de terceros (CamPhish, tunnels, etc.)
+cloudflared
+camphish.sh
+cleanup.sh
+
+# Sistema
+.DS_Store
+__pycache__/
+*.pyc
